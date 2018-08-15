@@ -37,7 +37,7 @@ body {
 }
 
 #links p {
-    padding-bottom: 10px;
+    padding: 5px;
 }
 
 .card, .carddown {
@@ -144,7 +144,7 @@ li {
 }
 
 @media (min-width: 430px) {
-    carddawn p {
-        font-size: 200%;
+    .carddawn p {
+        font-size: 5rem;
     }
 }

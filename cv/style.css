@@ -1,0 +1,141 @@
+/* CSS reset */
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,hgroup,
+ul,ol,dd,
+p,figure,
+pre,table,fieldset,hr, div, .picture {
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* CSS reset vége*/
+
+/* ==== A SIMPLE TOP NAVIGATION ==== */
+
+nav ul {
+  background-color: #e49450;
+  text-align: center;
+}
+
+nav li {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.4rem;
+  line-height: 3rem;
+  height: 3rem;  
+  display: inline-block;
+  border-bottom: none;
+  width: 9rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: brown;
+  display: block;
+}
+
+nav a:hover {
+  background-color:bisque;
+  transition: background-color .3s ease-in-out;
+}
+
+nav a.active {
+  background-color: brown;
+  color: #eee;
+}
+
+nav {
+  font-size: 0;
+  margin-bottom: 2rem;
+}
+
+/* ==== A SIMPLE TOP NAVIGATION END==== */
+
+body {
+    background: #F4A460;
+}
+
+a {
+  text-decoration: none;
+  color: brown;
+}
+
+section {
+  width: 95%;
+  margin: 1rem auto 1rem;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.maintitle {
+  font-family: serif;
+  font-size: 1.8rem;
+  color: brown;
+  text-align: center;
+  padding: 1rem;
+}
+
+.sub {
+    margin-bottom: .5rem;
+    font-family: 'muli', serif;
+    font-weight: 700;
+}
+
+.jaky{
+  background: url('assets/jakylogobig.jpg') no-repeat center/cover;
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+}
+
+.szrmkk{
+  background: url('assets/szrmkk.jpg') no-repeat center/cover;
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+}
+
+.bdf{
+  background: url('assets/bdtf.png') no-repeat center/cover;
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+}
+
+.vein{
+  background: url('assets/vein.png') no-repeat center/cover;
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+}
+
+.tolnai{
+  background: url('assets/tolnai.png') no-repeat center/cover;
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+}
+
+.me {
+  background: none;
+  height: 100%;
+  width: 100%;
+  background-size: contain;    
+}
+
+.subdiv:after {
+  display: block;
+  content: "";
+  background-color: #444349;
+  height: 3px;
+  width: 50vw;
+  margin: 0 auto;
+}

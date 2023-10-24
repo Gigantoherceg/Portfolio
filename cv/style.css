@@ -89,6 +89,13 @@ section {
     font-weight: 700;
 }
 
+.progm{
+  background: url('assets/progmasterslogo.png') no-repeat center/cover;
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+}
+
 .toparti{
   background: url('assets/topartigimi.png') no-repeat center/cover;
   height: 100%;
